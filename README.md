@@ -12,7 +12,7 @@ This project assumes that you have an active AWS account. Thus the steps of crea
 - Create a security group that allows inbound rule on port 22. Set your IP address as the source.
 - Specify volume size. 8GiB should be enough.
 - Launch instance.
-<img width="1096" height="779" alt="Screenshot 2025-08-11 at 21 49 32" src="https://github.com/user-attachments/assets/a8e0e7f7-13b6-40ef-bee1-9ad3bddd4dab" />
+<img width="1096" height="779" alt="Screenshot 2025-08-11 at 21 49 32" src="https://github.com/user-attachments/assets/db743ec7-33c4-46ea-bc06-4fc8e368ea1d" />
 
 
 ### Installations:
@@ -27,7 +27,7 @@ sudo apt update
 sudo apt install apache2
 ```
 At this point Apache server is up and running. Copy your EC2 instance public IP and open in a browser. You should see the Apache landing page below.
-<img width="1490" height="876" alt="Screenshot 2025-08-05 at 20 58 07" src="https://github.com/user-attachments/assets/683e8118-2c5d-4b0c-8ffd-762e8e6b34a9" />
+<img width="1490" height="876" alt="Screenshot 2025-08-05 at 20 58 07" src="https://github.com/user-attachments/assets/74581a5c-4306-4006-b8b3-7cc11e95e92e" />
 
 - Install MySQL
 ```
@@ -102,6 +102,7 @@ Create `index.php` file
 vim /var/www/projectlamp/index.php
 ```
 Reload website on the browser. This time it should show a PHP server information.
-<img width="1366" height="883" alt="Screenshot 2025-08-08 at 21 52 54" src="https://github.com/user-attachments/assets/18447696-f7ca-4522-b239-90af9be23ef6" />
+<img width="1366" height="883" alt="Screenshot 2025-08-08 at 21 52 54" src="https://github.com/user-attachments/assets/b62d7fed-c998-4640-bca5-d5233fe3a825" />
+
 
 
